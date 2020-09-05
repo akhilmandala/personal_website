@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import { useSpring, animated } from 'react-spring';
-import Layout, { siteTitle } from '../components/layout'
+import Layout, { siteTitle } from '../components/Layout'
 import utilStyles from '../styles/utils.module.css'
 import { useState } from 'react';
 
@@ -18,6 +18,7 @@ export default function Home() {
         <meta name="description"
           content="Akhil Mandala's personal website. His skills, qualifications, and projects are provided here."
           />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <section className={utilStyles.resumeSection}>
         <p>
