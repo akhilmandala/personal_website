@@ -6,19 +6,20 @@ body {
         Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     line-height: 1.6;
     font-size: 16px;
+    font-weight: 300;
 }
 
 @media only screen and (min-width: 768px) {
   html,
   body {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
 @media only screen and (min-width: 1024px) {
   html,
   body {
-    font-size: 23px;
+    font-size: 20px;
   }
 }
 

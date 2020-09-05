@@ -38,6 +38,7 @@ function AnimatedLink({ text, ...props }) {
 
 export default function Layout({ children, home }) {
   return (
+    <>
     <div className={styles.container}>
       <header className={styles.header}>
             <img
@@ -47,15 +48,12 @@ export default function Layout({ children, home }) {
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
       </header>
-      <main>{children}</main>
-      {!home && (
-        <div className={styles.backToHome}>
-          <Link href="/">
-            <a>← Back to home</a>
-          </Link>
-        </div>
-      )}
+      <main className={styles.mainContent}>{children}</main>
     </div>
+    <div className={utilStyles.toolBar}>
+
+    </div>
+    </>
   );
 }
 

@@ -105,3 +105,16 @@
 .lightText {
     color: #999;
 }
+
+.mainContent {
+  margin: 5rem 0;
+}
+
+.toolBar {
+  position: relative;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  background-color: #4b2e83;
+  height: 10vh;
+}
