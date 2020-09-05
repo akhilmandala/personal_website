@@ -18,7 +18,7 @@ export default function Home() {
       </Head>
       <section className={utilStyles.resumeSection}>
         <p>
-          Hi, I'm Akhil. I'm a 3rd year undergrad at the University of Washington,
+          Hi, I'm Akhil. I'm a 3rd year undergrad at the University of Washington
           studying <a href="https://www.ece.uw.edu/">Electrical Engineering</a> with a concentration in embedded systems
           and power electronics.
         </p>
