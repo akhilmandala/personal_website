@@ -15,6 +15,9 @@ export default function Home() {
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
+        <meta name="description"
+          content="Akhil Mandala's personal website. His skills, qualifications, and projects are provided here."
+          />
       </Head>
       <section className={utilStyles.resumeSection}>
         <p>

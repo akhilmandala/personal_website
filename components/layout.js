@@ -6,7 +6,7 @@ import Link from "next/link";
 import { useSpring, animated } from "react-spring";
 
 const name = "Akhil Mandala";
-export const siteTitle = "Akhil Mandala's personal website";
+export const siteTitle = "Akhil Mandala - ECE student at UW";
 
 function AnimatedLink({ text, ...props }) {
   const [backgroundHighlight, toggleBackgroundHighlight] = useState(false);
