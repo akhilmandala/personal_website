@@ -50,9 +50,6 @@ export default function Layout({ children, home }) {
       </header>
       <main className={styles.mainContent}>{children}</main>
     </div>
-    <div className={utilStyles.toolBar}>
-
-    </div>
     </>
   );
 }
