@@ -56,7 +56,7 @@ export default function Home() {
           <a href="https://en.wikipedia.org/wiki/Chirp_spread_spectrum">
             Chirp Spread Spectrum (CSS)
           </a>{" "}
-          to encode binary or other forms of data into mechanical motors
+          to encode binary or other forms of data into mechanical motor
           movement. Most of my work in this lab will involve signal processing
           and embedded systems.
         </p>
