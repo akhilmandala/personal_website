@@ -71,10 +71,3 @@ export default function Home() {
     </Layout>
   );
 }
-
-// <AnimatedLabel text="Experience" className={utilStyles.profileSectionLabel} />
-// <ul className={utilStyles.profileSectionPoints}>
-//   <li>Electrical Engineering @ UW (class of '22) </li>
-//   <li>SDE Intern @ Zillow </li>
-//   <li>Research Assistant @ UW BioRobotics Lab</li>
-// </ul>
